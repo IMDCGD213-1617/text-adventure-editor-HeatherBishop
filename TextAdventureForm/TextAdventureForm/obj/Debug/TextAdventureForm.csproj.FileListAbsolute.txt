@@ -1,0 +1,9 @@
+c:\users\administrator\documents\visual studio 2015\Projects\TextAdventureForm\TextAdventureForm\bin\Debug\TextAdventureForm.exe.config
+c:\users\administrator\documents\visual studio 2015\Projects\TextAdventureForm\TextAdventureForm\obj\Debug\TextAdventureForm.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2015\Projects\TextAdventureForm\TextAdventureForm\obj\Debug\TextAdventureForm.BaseForm.resources
+c:\users\administrator\documents\visual studio 2015\Projects\TextAdventureForm\TextAdventureForm\obj\Debug\TextAdventureForm.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2015\Projects\TextAdventureForm\TextAdventureForm\obj\Debug\TextAdventureForm.csproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2015\Projects\TextAdventureForm\TextAdventureForm\bin\Debug\TextAdventureForm.exe
+c:\users\administrator\documents\visual studio 2015\Projects\TextAdventureForm\TextAdventureForm\bin\Debug\TextAdventureForm.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\TextAdventureForm\TextAdventureForm\obj\Debug\TextAdventureForm.exe
+c:\users\administrator\documents\visual studio 2015\Projects\TextAdventureForm\TextAdventureForm\obj\Debug\TextAdventureForm.pdb
