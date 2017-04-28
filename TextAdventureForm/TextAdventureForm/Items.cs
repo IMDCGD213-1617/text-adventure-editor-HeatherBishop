@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+
 namespace TextAdventure
 {
     public class Items
@@ -23,6 +25,8 @@ namespace TextAdventure
         {
             get { return itemTitle; }
             set { itemTitle = value; }
+
+            
         }
 
         public string ItemDescription
@@ -39,6 +43,7 @@ namespace TextAdventure
 
         #endregion
 
+         
 
     }
 }

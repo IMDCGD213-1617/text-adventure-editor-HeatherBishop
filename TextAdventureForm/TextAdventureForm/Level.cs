@@ -31,20 +31,18 @@ namespace TextAdventure
 
         //BuildLevel()
         //
-        private static void BuildLevel()
+        public static void BuildLevel()
         {
             //set up grid to contain rooms
             rooms = new Rooms[6, 3]; //x, y
 
-            //temp variables to contain room/item objects.
-            Rooms room;
-            Items item;
+
 
 
 
             //create the rooms
 
-            #region Your Office 0,0
+          /*  #region Your Office 0,0
             // create new room.
             room = new Rooms();
 
@@ -482,7 +480,7 @@ namespace TextAdventure
 
             //place the player in the start room
             Player.PosX = 0;
-            Player.PosY = 0;
+            Player.PosY = 0;*/
         }
 
 

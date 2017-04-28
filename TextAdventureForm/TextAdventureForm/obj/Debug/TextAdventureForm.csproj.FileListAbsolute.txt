@@ -7,3 +7,12 @@ c:\users\administrator\documents\visual studio 2015\Projects\TextAdventureForm\T
 c:\users\administrator\documents\visual studio 2015\Projects\TextAdventureForm\TextAdventureForm\bin\Debug\TextAdventureForm.pdb
 c:\users\administrator\documents\visual studio 2015\Projects\TextAdventureForm\TextAdventureForm\obj\Debug\TextAdventureForm.exe
 c:\users\administrator\documents\visual studio 2015\Projects\TextAdventureForm\TextAdventureForm\obj\Debug\TextAdventureForm.pdb
+C:\Users\Trevor\Documents\GitHub\text-adventure-editor-HeatherBishop\TextAdventureForm\TextAdventureForm\bin\Debug\TextAdventureForm.exe.config
+C:\Users\Trevor\Documents\GitHub\text-adventure-editor-HeatherBishop\TextAdventureForm\TextAdventureForm\obj\Debug\TextAdventureForm.exe
+C:\Users\Trevor\Documents\GitHub\text-adventure-editor-HeatherBishop\TextAdventureForm\TextAdventureForm\obj\Debug\TextAdventureForm.pdb
+C:\Users\Trevor\Documents\GitHub\text-adventure-editor-HeatherBishop\TextAdventureForm\TextAdventureForm\bin\Debug\TextAdventureForm.exe
+C:\Users\Trevor\Documents\GitHub\text-adventure-editor-HeatherBishop\TextAdventureForm\TextAdventureForm\bin\Debug\TextAdventureForm.pdb
+C:\Users\Trevor\Documents\GitHub\text-adventure-editor-HeatherBishop\TextAdventureForm\TextAdventureForm\obj\Debug\TextAdventureForm.csprojResolveAssemblyReference.cache
+C:\Users\Trevor\Documents\GitHub\text-adventure-editor-HeatherBishop\TextAdventureForm\TextAdventureForm\obj\Debug\TextAdventureForm.BaseForm.resources
+C:\Users\Trevor\Documents\GitHub\text-adventure-editor-HeatherBishop\TextAdventureForm\TextAdventureForm\obj\Debug\TextAdventureForm.Properties.Resources.resources
+C:\Users\Trevor\Documents\GitHub\text-adventure-editor-HeatherBishop\TextAdventureForm\TextAdventureForm\obj\Debug\TextAdventureForm.csproj.GenerateResource.Cache
