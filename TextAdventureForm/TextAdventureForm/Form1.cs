@@ -146,7 +146,7 @@ namespace TextAdventureForm {
         {
             //use this to set exit direction
             //set box selected item to string value
-           //exitString = comboBox1.SelectedValue.ToString();
+           exitString = comboBox1.SelectedValue.ToString();
         
 
         }
@@ -179,18 +179,7 @@ namespace TextAdventureForm {
             //using saved xcoord and ycoord variables set by user
             rooms = new Rooms[xInt,yInt];
 
-            //create item
-            Items item = new TextAdventure.Items();
-            item.ItemTitle = itemTitle.Text;
-            item.ItemDescription = itemDescrip.Text;
-
-            XmlSerializer ser = new XmlSerializer(typeof(Items));
-            //creates the xml file
-            TextWriter tw = new StreamWriter("itemFile.xml");
-
-            ser.Serialize(tw, item);
-            tw.Close();
-
+            XmlSerializer serCoords = new XmlSerializer(typeof(Rooms[,]));
 
             //create room 
 
@@ -210,6 +199,18 @@ namespace TextAdventureForm {
 
             tw2.Close();
 
+            //create item
+            Items item = new TextAdventure.Items();
+            item.ItemTitle = itemTitle.Text;
+            item.ItemDescription = itemDescrip.Text;
+
+            XmlSerializer ser = new XmlSerializer(typeof(Items));
+            //creates the xml file
+            TextWriter tw = new StreamWriter("itemFile.xml");
+
+            ser.Serialize(tw, item);
+            tw.Close();
+
             //set exit
             //using saved string value as the direction.
             room.AddExit(exitString);            
@@ -224,12 +225,12 @@ namespace TextAdventureForm {
 
             roomDescrip.Text = newRoom.RoomDescription;
             roomTitle.Text = newRoom.RoomTitle;
-
+            fStream.Close();
 
             //load saved data
             XmlSerializer ser2 = new XmlSerializer(typeof(Items));
             FileStream fStream2 = new FileStream("itemFile.xml", FileMode.Open);
-            Items newItem = (Items)ser.Deserialize(fStream2);
+            Items newItem = (Items)ser2.Deserialize(fStream2);
 
             itemDescrip.Text = newItem.ItemDescription;
             itemTitle.Text = newItem.ItemTitle; 
@@ -238,7 +239,7 @@ namespace TextAdventureForm {
             
 
             fStream2.Close();
-            fStream.Close();
+           
         }
     }
 }
